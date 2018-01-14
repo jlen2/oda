@@ -1,0 +1,66 @@
+//@import 'bulma';
+
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+$indigo: #3F51B5;
+$indigo_light: #9FA8DA;
+$indigo_dark: #283593;
+$pink: #c2185b;
+$pink_light: #fa5788;
+$pink_dark: #8c0032;
+
+$primary: $indigo;
+$light: $indigo_light;
+$dark: $indigo_dark;
+$info: $pink_dark;
+
+@import 'bulma/bulma.sass';
+@import 'bulma-extensions/extensions.sass';
+
+/*
+.breadcrumb:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+.hero-body.is-small {
+  padding-top: 1rem
+}
+*/
+.page-summary {
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: $desktop) {
+  .security-tabs {
+    margin-top: -3.2rem;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
